@@ -9,3 +9,7 @@ python set methods:
 my_set={1,2,3}
 my_set.add(3)
 print(my_set)
+#update():
+my_set={1,2,3}
+my_set.update([2,3,4])
+print(my_set)
