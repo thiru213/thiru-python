@@ -129,6 +129,63 @@ a = b
 b = temp
 
 print("After swapping: a =", a, ", b =", b)
+#area of triangle
+base = float(input("Enter base: "))
+height = float(input("Enter height: "))
+
+area = 0.5 * base * height
+
+print("Area of triangle:", area)
+#area of circle
+adius = float(input("Enter radius: "))
+area = 3.14 * radius ** 2
+
+print("Area of circle:", area)
+#area od rectangle
+length = float(input("Enter length: "))
+width = float(input("Enter width: "))
+
+perimeter = 2 * (length + width)
+
+print("Perimeter of rectangle:", perimeter)
+#Celsius to Fahrenheit
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+#Fahrenheit to Celsius
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+
+print("Temperature in Celsius:", celsius)
+#Simple Interest
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of interest: "))
+time = float(input("Enter time (in years): "))
+
+simple_interest = (principal * rate * time) / 100
+
+print("Simple Interest:", simple_interest)
+#Compound Interest
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter rate of interest: "))
+time = float(input("Enter time (in years): "))
+
+compound_interest = principal * (1 + rate/100) ** time - principal
+
+print("Compound Interest:", compound_interest))
+#Average of Three Numbers
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+average = (a + b + c) / 3
+
+print("Average:", average)
+
+
+
+
+
 
 
 
