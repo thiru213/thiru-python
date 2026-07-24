@@ -88,7 +88,17 @@ city = "Thanjavur"
 print("Name:", name)
 print("Age:", age)
 print("City:", city)
+#user input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+print("name:", name)
+print("age:", age)
+print("city:", city)
 
+
+
+    
 
 
 
