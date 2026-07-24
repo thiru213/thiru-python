@@ -79,7 +79,9 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
-                                   problems
+
+
+  problems
 #personal details
 name = "John"
 age = 25
@@ -95,6 +97,40 @@ city = input("Enter your city: ")
 print("name:", name)
 print("age:", age)
 print("city:", city)
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+#area of circle
+radius = float(input("Enter radius: "))
+
+pi = 3.14159
+area = pi * radius * radius
+
+print("Area of circle:", area)
+
+#swaping two values without temp variaple
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Before swapping: a =", a, ", b =", b)
+
+a, b = b, a
+
+print("After swapping: a =", a, ", b =", b)
+#swaping two values with temp variable
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Before swapping: a =", a, ", b =", b)
+
+temp = a
+a = b
+b = temp
+
+print("After swapping: a =", a, ", b =", b)
+
+
 
 
 
