@@ -35,6 +35,9 @@ tup=(1."hi",2.5)
 #tuple indexing
 tup=(1,2,3,4,5,6)
 print(tup[0])
+
+
+
 #neagitive indexing
 tup=(1,2,3,4,5,6)
 print(tup[-1])
@@ -76,8 +79,15 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+                                   problems
+#personal details
+name = "John"
+age = 25
+city = "Thanjavur"
 
-
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
 
 
 
