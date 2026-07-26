@@ -35,9 +35,6 @@ tup=(1."hi",2.5)
 #tuple indexing
 tup=(1,2,3,4,5,6)
 print(tup[0])
-
-
-
 #neagitive indexing
 tup=(1,2,3,4,5,6)
 print(tup[-1])
@@ -181,6 +178,21 @@ c = float(input("Enter third number: "))
 average = (a + b + c) / 3
 
 print("Average:", average)
+                              conditional statement
+#even or add
+n = int(input("Enter a number: "))
+if n % 2 ==0:
+    print("n  is an even number.")
+else:
+    print("n is an odd number.")  
+  #=ve,+ve or zero number
+n = int(input("Enter a number: "))
+if n > 0:
+    print("n is a positive number")
+elif n < 0:
+    print("n is a negative number")
+else:
+    print("n is zero")
 
 
 
