@@ -210,7 +210,35 @@ elif n2 > n3:
     print("larger number is:", n2)    
 else:    
     print("larger number is:", n3)
+  #smallest three numbers
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+n3 = int(input("Enter the third number: "))
+if n1 < n2:
+    print("smaller number is:", n1)
+elif n2 < n3:
+    print("smaller number is:", n2)    
+else:    
+    print("smaller number is:", n3)
+  #leaf year not method:1
+year = int(input("Enter a year: "))
+if (year % 400 == 0 and year % 100 != 0) or (year % 4 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
+method2:
+def is_leap(year):
+    if year % 400 == 0:
+        return True
+    elif year % 100 == 0:
+        return False
+    elif year % 4 == 0:
+        return True
+    else:
+        return False
 
+year = int(input("Enter a year: "))
+print(is_leap(year))
 
 
 
