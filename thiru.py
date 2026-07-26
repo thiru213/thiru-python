@@ -193,6 +193,23 @@ elif n < 0:
     print("n is a negative number")
 else:
     print("n is zero")
+#largest two numbers
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+if n1 > n2:
+    print("larger number is:", n1)
+else:    
+    print("larger number is:", n2)
+  #largent three numbers
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+n3 = int(input("Enter the third number: "))
+if n1 > n2:
+    print("larger number is:", n1)
+elif n2 > n3:
+    print("larger number is:", n2)    
+else:    
+    print("larger number is:", n3)
 
 
 
