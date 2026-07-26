@@ -239,6 +239,20 @@ def is_leap(year):
 
 year = int(input("Enter a year: "))
 print(is_leap(year))
+#Grade calculator
+marks = int(input("enter your marks"))
+if marks > 90:
+  print("Grade A")
+elif marks > 80:
+  print(" Grade B")
+elif marks > 70:
+  print(" Grade C")
+elif marks > 60:
+  print(" Grade D")
+elif marks > 50:
+  print(" pass") 
+else:
+  print("fail")
 
 
 
