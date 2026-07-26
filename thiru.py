@@ -253,6 +253,20 @@ elif marks > 50:
   print(" pass") 
 else:
   print("fail")
+  #simple caluculator
+a = int(input("enter first number:"))
+b = int(input("enter second number"))
+
+print("addtion :", a+b)
+print("subtraction :",a+b)
+print(" multiplication :",a*b)
+print(" division:",a/b)
+#voting eligibility
+age = int(input("enter a age"))
+if age > 18 :
+    print("he is eligible")
+else:
+    print("he is not eligible")
 
 
 
