@@ -1,4 +1,3 @@
-
                                       #python list
 a={1,2,3}
 for i in a:
@@ -267,6 +266,29 @@ if age > 18 :
     print("he is eligible")
 else:
     print("he is not eligible")
+  #simple calculator:
+a = float(input("enter the first number"))
+b = float(input("enter the second number"))
+
+op = input("enter operator(+,-,*, /): ")
+
+if op == "+":
+   print("result=",a+b)
+elif op == "-":
+    print("result=",a-b)
+elif op == "*":
+   print("result=",a*b)
+elif op == "/":
+   if b!= 0:
+     print("result=",a/b)
+   else:
+    print("cannot divide by zero")
+
+else:
+    print("invalid operator")
+
+
+
 
 
 
