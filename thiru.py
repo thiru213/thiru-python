@@ -286,6 +286,22 @@ elif op == "/":
 
 else:
     print("invalid operator")
+#character is alphabet,digit or special character
+ch = input("Enter a character: ")
+
+if ch >= 'A' and ch <= 'Z':
+    print("Uppercase")
+elif ch >= 'a' and ch <= 'z':
+    print("Lowercase")
+else:
+    print("Not an Alphabet")
+  #vowel or consonant
+ch = input("Enter a character: ")
+
+if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A' or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U':
+    print("Vowel")
+else:
+    print("Consonant")
 
 
 
