@@ -1,7 +1,7 @@
                                       #python list
 a={1,2,3}
 for i in a:
-    print(i)
+    print(i)f
 print(2 in a)    
 python set methods:
 #add():
