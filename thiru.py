@@ -302,6 +302,49 @@ if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A' or
     print("Vowel")
 else:
     print("Consonant")
+  #uppercase or lowercase
+ch = input("Enter a character: ")
+
+if ch >= 'A' and ch <= 'Z':
+    print("Uppercase")
+elif ch >= 'a' and ch <= 'z':
+    print("Lowercase")
+else:
+    print("Not an Alphabet")
+  #profit or loss
+cp = int(input("Enter Cost Price: "))
+sp = int(input("Enter Selling Price: "))
+
+if sp > cp:
+    print("Profit")
+elif sp < cp:
+    print("Loss")
+else:
+    print("No Profit No Loss")
+  #triagle validity
+a = int(input("Enter Side 1: "))
+b = int(input("Enter Side 2: "))
+c = int(input("Enter Side 3: "))
+
+if a + b > c and a + c > b and b + c > a:
+    print("Valid Triangle")
+else:
+    print("Invalid Trtraiangle")
+  #triagle table
+a = int(input("Enter Side 1: "))
+b = int(input("Enter Side 2: "))
+c = int(input("Enter Side 3: "))
+
+if a == b == c:
+    print("Equilateral")
+elif a == b or b == c or a == c:
+    print("Isosceles")
+else:
+    print("Scalene")
+
+
+
+
 
 
 
