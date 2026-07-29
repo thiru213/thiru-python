@@ -1,10 +1,10 @@
 n =  int(input("enter a n value"))
-sum = 0
+product = 1
 while n > 0:
-    digit =n % 10
-    sum = sum + digit
+    digit = n %10
+    product = product * digit
     n = n // 10
-print("sum of digits= ",sum)
+print("product of digits:",product)
 
     
 
