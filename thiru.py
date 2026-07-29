@@ -341,23 +341,49 @@ elif a == b or b == c or a == c:
     print("Isosceles")
 else:
     print("Scalene")
+                                                #loops
+#print 1 to n
+n =  int(input("enter a nvalue"))
+for i in range(1,n+1):
+    print(i)
+  #print n to 1
+n =  int(input("enter a nvalue"))
+for i in range(n,0,-1):
+    print(i)
+  #print even numbers
+n =  int(input("enter a nvalue"))
+for i in range(2,n+1,2):
+    print(i)
+  #print odd numbers
+n =  int(input("enter a nvalue"))
+for i in range(1,n+1,2):
+    print(i)
+  #print sum of first n numbers
+n =  int(input("enter a nvalue"))
+sum = 0
+for i in range(1,n+1):
+    sum = sum+i
+print("sum:",sum)
+#sum of even numbers
+n =  int(input("enter a nvalue"))
+sum = 0
+for i in range(2,n+1,2):
+    sum = sum+i
+print("sum:",sum)
+#sum of odd numbers
+n =  int(input("enter a nvalue"))
+sum = 0
+for i in range(1,n+1,2):
+    sum = sum+i
+print("sum:",sum)
+ 
 
 
 
 
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
