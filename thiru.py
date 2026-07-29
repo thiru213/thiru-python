@@ -1,10 +1,8 @@
 n =  int(input("enter a n value"))
-product = 1
-while n > 0:
-    digit = n %10
-    product = product * digit
+
+while n > 10:
     n = n // 10
-print("product of digits:",product)
+print("first digits:",n)
 
     
 
