@@ -1,18 +1,15 @@
-n = int(input(" enter a number:"))
-count = 0
-for i in range(1 , n+1):
-  if n % i == 0:
-       count+=1
+min = 1
+max = 100
+
+for i in range(min, max+1):
+    count = 0
+    for j in range(1, i+1):
+        if i % j == 0:
+            count = count + 1
+
+    if count == 2:
+        print(i)
     
-if count == 3:
-    print("the num is prime")
-else:
-    print("the no is not prime")
-
-
-
-    
-
 
 
     
