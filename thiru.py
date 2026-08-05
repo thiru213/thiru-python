@@ -1,14 +1,15 @@
 n = int(input("Enter a number: "))
+square = n * n
+temp = square
 sum = 0
-temp = n
-while n > 0:
-    digit = n % 10
+while temp > 0:
+    digit = temp % 10
     sum = sum + digit
-    n = n// 10
-if temp % sum  == 0:
-    print( "is a harshad number")
+    temp = temp // 10
+if sum  == n:
+    print( "is a neon  number")
 else:
-    print( "is not a harshad number")
+    print( "is not a neon number")
 
 
     
