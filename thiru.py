@@ -1,12 +1,20 @@
 n = int(input("Enter a number: "))
 sum = 0
-for i in range(1, n ):
-      if n % i == 0:
-          sum = sum + i
-if sum == n:
-    print(n, "is a perfect number")
+temp = n
+while n > 0:
+    digit = n % 10
+    fact = 1 
+    
+    for i in range(1, digit + 1):
+        fact = fact * i
+    sum = sum + fact
+    n = n// 10
+if sum == temp:
+    print( "is a strong number")
 else:
-    print(n, "is not a perfect number") 
+    print( "is not a strong number")
+
+
     
 
 
