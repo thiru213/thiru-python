@@ -1,18 +1,12 @@
 n = int(input("Enter a number: "))
-
-temp = n
-rev = 0
-
-while temp > 0:
-    digit = temp % 10
-    rev = rev * 10 + digit
-    temp = temp // 10
-
-if n == rev:
-    print("Palindrome")
+sum = 0
+for i in range(1, n ):
+      if n % i == 0:
+          sum = sum + i
+if sum == n:
+    print(n, "is a perfect number")
 else:
-    print("Not Palindrome")
-
+    print(n, "is not a perfect number") 
     
 
 
