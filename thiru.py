@@ -3,16 +3,12 @@ sum = 0
 temp = n
 while n > 0:
     digit = n % 10
-    fact = 1 
-    
-    for i in range(1, digit + 1):
-        fact = fact * i
-    sum = sum + fact
+    sum = sum + digit
     n = n// 10
-if sum == temp:
-    print( "is a strong number")
+if temp % sum  == 0:
+    print( "is a harshad number")
 else:
-    print( "is not a strong number")
+    print( "is not a harshad number")
 
 
     
