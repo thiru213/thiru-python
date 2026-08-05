@@ -1,15 +1,18 @@
-min = 1
-max = 100
+start = int(input("Enter start: "))
+end = int(input("Enter end: "))
 
-for i in range(min, max+1):
-    count = 0
-    for j in range(1, i+1):
-        if i % j == 0:
-            count = count + 1
+for num in range(start, end + 1):
+    temp = num
+    total = 0
+    digits = len(str(num))
 
-    if count == 2:
-        print(i)
-    
+    while temp > 0:
+        digit = temp % 10
+        total = total + digit ** digits
+        temp = temp // 10
+
+    if num == total:
+        print(num)
 
 
     
