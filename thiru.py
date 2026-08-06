@@ -1,15 +1,13 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+n = int(input("Enter a number: "))
 
-lcm = max(a, b)
+i = 1
+while i * i < n:
+    i += 1
 
-while True:
-    if lcm % a == 0 and lcm % b == 0:
-        break
-    lcm += 1
-
-print("LCM =", lcm)
-
+if i * i == n:
+    print("Perfect Square")
+else:
+    print("Not a Perfect Square")
 
 
     
