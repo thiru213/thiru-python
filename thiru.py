@@ -1,14 +1,10 @@
-n = int(input("Enter a number: "))
-
-i = 1
-while i * i < n:
-    i += 1
-
-if i * i == n:
-    print("Perfect Square")
-else:
-    print("Not a Perfect Square")
-
+n = int(input("Enter the number of terms: "))
+a,b = 0, 1
+for i in range(n):
+    print(a ,end = " ")
+    c = a + b
+    a = b
+    b = c
 
     
 
