@@ -1,12 +1,12 @@
-n = int(input("Enter the number of terms: "))
-a,b = 0, 1
-for i in range(n):
-    print(a ,end = " ")
-    c = a + b
-    a = b
-    b = c
+n = int(input("Enter the number "))
+fact = 1
+for i in range(1 , n+1):
+    fact = fact * i
 
-    
+
+
+print("factorial:" ,fact)
+
 
 
 
