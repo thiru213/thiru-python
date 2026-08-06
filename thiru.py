@@ -11,6 +11,7 @@ while True:
 print("LCM =", lcm)
 
 
+
     
 
 
